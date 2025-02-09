@@ -29,7 +29,7 @@ def sqli_password(url, tracking_id, session_id):
 def main():
     if len(sys.argv) != 4:
         print("(+) Usage: %s <url> <TrackingId> <session>" % sys.argv[0])
-        print("(+) Example: %s www.example.com Q65RjyOoIdkXejJE 32MQC5eQLnSoTmsUFVCJ54WG0k23ShEn" % sys.argv[0])
+        print("(+) Example: %s \"www.example.com\" \"Q65RjyOoIdkXejJE\" \"32MQC5eQLnSoTmsUFVCJ54WG0k23ShEn\"" % sys.argv[0])
         sys.exit(1)
 
     url = sys.argv[1]
